@@ -1,0 +1,747 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1a98275514e6ef45b88dea50f5ef22c, type: 3}
+  m_Name: trackY
+  m_EditorClassIdentifier: 
+  trackTimerLists:
+  - startY: 28.56
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 31.4
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 35.89
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 43.23
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 47.1
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 59.28
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 29.237
+    trackId: -5
+    scaleY: 0.410256
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 64.38
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 69.19
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 105.01
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 158.48
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 69.18
+    trackId: -1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 113.64
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 151.743
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 73.34
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 85.8
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 104.38
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 119.12
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 144.7
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 158.46
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 87.73
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 101.2
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 128.07
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 140.86
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 144.7
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 188.53
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 211.9
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 324.18
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 371.87
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 408.98
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 482.91
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 489.34
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 509.51
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 513.62
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 540.86
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 614.13
+    trackId: -5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 197.52
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 224.69
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 253.51
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 257.96
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 276.84
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 315.56
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 334.77
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 357.17
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 398.16
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 476.56
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 487.09
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 505.95
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 536.384
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 547.24
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 571.57
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 604.545
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 618.618
+    trackId: -3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 347.23
+    trackId: -1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 387.27
+    trackId: -1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 471.72
+    trackId: -1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 611.56
+    trackId: -1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 308.51
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 466.91
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 501.81
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 532.52
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 566.13
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 577.33
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 598.12
+    trackId: 1
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 239.06
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 244.49
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 251.2
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 254.76
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 265.32
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 273.64
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 420.83
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 460.22
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 491.9
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 498.29
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 518.77
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 558.77
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 591.09
+    trackId: 3
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 160.692
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 167.43
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 179.26
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 187.58
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 193.01
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 204.52
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 210.58
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 231.74
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 413.48
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 454.76
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 490.29
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 510.49
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 513.65
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 552.35
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 585.32
+    trackId: 5
+    scaleY: 1
+    gameObject: {fileID: 4160971075289313144, guid: 1b5d25d4db21f6940960b0d4b2873e46, type: 3}
+  - startY: 31.7722
+    trackId: -5
+    scaleY: 0.2477126
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 38.199
+    trackId: -5
+    scaleY: 1.356271
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 44.4983
+    trackId: -5
+    scaleY: 0.7864134
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 51.6595
+    trackId: -5
+    scaleY: 2.677289
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 63.672
+    trackId: -5
+    scaleY: 2.568422
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 189.3911
+    trackId: -5
+    scaleY: 0.4993409
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 213.2432
+    trackId: -5
+    scaleY: 0.7953629
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 65.8602
+    trackId: -3
+    scaleY: 0.899434
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 70.0101
+    trackId: -3
+    scaleY: 0.5233248
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 106.6928
+    trackId: -3
+    scaleY: 0.9790425
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 160.44
+    trackId: -3
+    scaleY: 1.162279
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 199.1393
+    trackId: -3
+    scaleY: 0.986982
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 226.181
+    trackId: -3
+    scaleY: 0.8821369
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 253.8552
+    trackId: -3
+    scaleY: 0.2364158
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 258.8015
+    trackId: -3
+    scaleY: 0.5168536
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 279.14
+    trackId: -3
+    scaleY: 1.365632
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 72.9327
+    trackId: -1
+    scaleY: 2.198399
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 116.0929
+    trackId: 1
+    scaleY: 1.4424
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 152.608
+    trackId: 1
+    scaleY: 0.5233472
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 75.4764
+    trackId: 3
+    scaleY: 1.266116
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 87.6511
+    trackId: 3
+    scaleY: 1.06012
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 111.5126
+    trackId: 3
+    scaleY: 4.078708
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 121.5606
+    trackId: 3
+    scaleY: 1.437392
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 148.0045
+    trackId: 3
+    scaleY: 1.90776
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 160.8681
+    trackId: 3
+    scaleY: 1.46575
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 239.5
+    trackId: 3
+    scaleY: 0.2561783
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 246.48
+    trackId: 3
+    scaleY: 1.170218
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 251.6151
+    trackId: 3
+    scaleY: 0.2290104
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 259.1934
+    trackId: 3
+    scaleY: 2.566082
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 269.2508
+    trackId: 3
+    scaleY: 2.283832
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 285.1312
+    trackId: 3
+    scaleY: 6.640741
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 92.2108
+    trackId: 5
+    scaleY: 2.623622
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 107.3901
+    trackId: 5
+    scaleY: 3.588845
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 133.1041
+    trackId: 5
+    scaleY: 2.911168
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 141.87
+    trackId: 5
+    scaleY: 0.6080023
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 148.0045
+    trackId: 5
+    scaleY: 1.90776
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 162.4916
+    trackId: 5
+    scaleY: 1.109195
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 172.5958
+    trackId: 5
+    scaleY: 3.013585
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 181.7329
+    trackId: 5
+    scaleY: 1.439747
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 188.9224
+    trackId: 5
+    scaleY: 0.7984803
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 196.4624
+    trackId: 5
+    scaleY: 2.010229
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 206.7969
+    trackId: 5
+    scaleY: 1.334269
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 219.6621
+    trackId: 5
+    scaleY: 5.229978
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 233.07
+    trackId: 5
+    scaleY: 0.79707
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 326.0339
+    trackId: -5
+    scaleY: 1.071232
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 374.04
+    trackId: -5
+    scaleY: 1.252263
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 411.1804
+    trackId: -5
+    scaleY: 1.26586
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 485.03
+    trackId: -5
+    scaleY: 1.242117
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 493.4694
+    trackId: -5
+    scaleY: 2.362507
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 510.8294
+    trackId: -5
+    scaleY: 0.7779505
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 514.43
+    trackId: -5
+    scaleY: 0.4735384
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 542.3135
+    trackId: -5
+    scaleY: 0.8728201
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 615.192
+    trackId: -5
+    scaleY: 0.6329033
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 317.6839
+    trackId: -3
+    scaleY: 1.264439
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 336.1638
+    trackId: -3
+    scaleY: 0.8204569
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 359.3414
+    trackId: -3
+    scaleY: 1.252263
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 400.0044
+    trackId: -3
+    scaleY: 1.041517
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 478.7332
+    trackId: -3
+    scaleY: 1.242117
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 489.27
+    trackId: -3
+    scaleY: 1.242117
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 507.543
+    trackId: -3
+    scaleY: 0.950691
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 539.33
+    trackId: -3
+    scaleY: 1.698424
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 549.1349
+    trackId: -3
+    scaleY: 1.105514
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 573.11
+    trackId: -3
+    scaleY: 0.8904638
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 606.76
+    trackId: -3
+    scaleY: 1.2755
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 619.68
+    trackId: -3
+    scaleY: 0.6329033
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 348.65
+    trackId: -1
+    scaleY: 0.8204569
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 388.639
+    trackId: -1
+    scaleY: 0.7746501
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 473.5532
+    trackId: -1
+    scaleY: 1.067937
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 613.74
+    trackId: -1
+    scaleY: 1.2755
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 310.86
+    trackId: 1
+    scaleY: 1.365632
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 468.4611
+    trackId: 1
+    scaleY: 0.8937458
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 503.15
+    trackId: 1
+    scaleY: 0.7995046
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 535.42
+    trackId: 1
+    scaleY: 1.698424
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 567.6308
+    trackId: 1
+    scaleY: 0.8904638
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 578.93
+    trackId: 1
+    scaleY: 0.8904638
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 599.68
+    trackId: 1
+    scaleY: 0.8904638
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 285.1312
+    trackId: 3
+    scaleY: 6.640741
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 425.6208
+    trackId: 3
+    scaleY: 2.760587
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 463.74
+    trackId: 3
+    scaleY: 2.013848
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 499.65
+    trackId: 3
+    scaleY: 0.7995046
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 521.6744
+    trackId: 3
+    scaleY: 1.698424
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 560.68
+    trackId: 3
+    scaleY: 1.0969
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 592.65
+    trackId: 3
+    scaleY: 0.8904638
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 415.64
+    trackId: 5
+    scaleY: 1.26586
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 458.2507
+    trackId: 5
+    scaleY: 2.013848
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 494.7453
+    trackId: 5
+    scaleY: 2.566628
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 511.3641
+    trackId: 5
+    scaleY: 0.5449007
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 516.1625
+    trackId: 5
+    scaleY: 1.448673
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 555.5007
+    trackId: 5
+    scaleY: 1.835817
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 492.8252
+    trackId: 3
+    scaleY: 0.5287102
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
+  - startY: 586.95
+    trackId: 5
+    scaleY: 0.8904638
+    gameObject: {fileID: 6568179220157787173, guid: 475e94c36cbe4d242ac6ba36f42d4f73, type: 3}
